@@ -22,7 +22,7 @@ st.markdown(
     <style>
     /* Custom background image for the entire app */
     .stApp {
-        background-image: url("https://ibb.co/9wX2GsY");
+        background-image: url("https://pbs.twimg.com/tweet_video_thumb/F7CpLGyXsAExRIt.jpg");
         background-size: cover; /* Ensures the image covers the entire background */
         background-position: center; /* Positions the image in the center */
         background-repeat: no-repeat; /* Prevents the image from repeating */
