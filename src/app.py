@@ -27,8 +27,34 @@ st.markdown(
         background-position: center; /* Positions the image in the center */
         background-repeat: no-repeat; /* Prevents the image from repeating */
     }
+
+    .stButton>button {
+        background-color: #004aad; /* Custom company blue for buttons */
+        color: white; /* White text for buttons */
+        border-radius: 10px;
+    }
+
+    .stButton>button:hover {
+        background-color: #003a8c; /* Darker blue on hover */
+        color: white;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #004aad; /* Custom blue for headings */
+    }
+
+    .stMarkdown {
+        color: #333; /* Dark gray text */
+    }
+
+    .stTextArea textarea {
+        background-color: #e9ecef; /* Light background for input fields */
+        color: #004aad; /* Custom blue for input text */
+    }
+
     </style>
-    """
+    """,
+    unsafe_allow_html=True
 )
 
 # Define a function to clear the chat history
