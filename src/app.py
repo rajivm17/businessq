@@ -14,7 +14,7 @@ if "aws_credentials" not in st.session_state:
     st.session_state.aws_credentials = None
 
 # Set the page title
-st.set_page_config(page_title="Amazon Q Business Custom UI")
+st.set_page_config(page_title="CloudInsights - Empowering Decisions Through GenAI Intelligence")
 
 # Inject custom CSS to set the company brand image as background
 st.markdown(
@@ -22,7 +22,7 @@ st.markdown(
     <style>
     /* Custom background image for the entire app */
     .stApp {
-        background-image: url("https://www.consultancy.eu/illustrations/news/detail/2023-04-14-07332657-Atos_lanceert_merk_van_spin-off_Eviden_.jpg");
+        background-image: url("https://cioinfluence.com/wp-content/uploads/2017/11/Atos-participates-in-AI4EU-project-to-promote-the-use-of-Artificial-Intelligence-in-Europe.jpg");
         background-size: cover; /* Ensures the image covers the entire background */
         background-position: center; /* Positions the image in the center */
         background-repeat: no-repeat; /* Prevents the image from repeating */
