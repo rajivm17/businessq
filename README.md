@@ -181,7 +181,7 @@ Connect to the EC2 through AWS Session Manager[Optional]:
 
 ```
 sudo -i
-cd /opt/custom-web-experience-with-amazon-q-business
+cd /opt/businessq
 ```
 
 ## Troubleshooting
