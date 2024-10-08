@@ -13,8 +13,8 @@ utils.retrieve_config_from_agent()
 if "aws_credentials" not in st.session_state:
     st.session_state.aws_credentials = None
 
-st.set_page_config(page_title="CloudInsights - Empowering Decisions Through GenAI Intelligence") #HTML title
-st.title("CloudInsights - Empowering Decisions Through GenAI Intelligence") #page title
+st.set_page_config(page_title="CloudInsights <br> Empowering Decisions Through GenAI Intelligence") #HTML title
+st.title("CloudInsights <br> Empowering Decisions Through GenAI Intelligence") #page title
 
 # Inject custom CSS to set the company brand image as background
 st.markdown(
@@ -22,7 +22,7 @@ st.markdown(
     <style>
     /* Custom background image for the entire app */
     .stApp {
-        background-image: url("https://pbs.twimg.com/tweet_video_thumb/F7CpLGyXsAExRIt.jpg");
+        background-image: url("https://i.ibb.co/GnCwZJC/work.jpg");
         background-size: cover; /* Ensures the image covers the entire background */
         background-position: center; /* Positions the image in the center */
         background-repeat: no-repeat; /* Prevents the image from repeating */
