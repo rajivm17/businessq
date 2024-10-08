@@ -22,8 +22,8 @@ st.markdown(
     <style>
     /* Custom background image for the entire app */
     .stApp {
-        background-image: url("https://i.ibb.co/GnCwZJC/work.jpg");
-        background-size: contain; /* Ensures the image covers the entire background */
+        background-image: url("https://i.ibb.co/sqshcxM/logo1.png");
+        background-size: cover; /* Ensures the image covers the entire background */
         background-position: center; /* Positions the image in the center */
         background-repeat: no-repeat; /* Prevents the image from repeating */
     }
